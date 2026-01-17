@@ -41,7 +41,7 @@ The server will start on `http://localhost:8090`.
 
 ---
 
-## 📡 API Usage
+## API Usage
 
 ### 1. Shorten a URL
 
