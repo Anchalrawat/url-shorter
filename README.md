@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 025807f3e3791ce7045911f31dc9645d4560a891
 A high-performance, lightweight URL shortening service built with Go. This project uses cryptographic hashing to generate short, deterministic IDs with zero external dependencies.
 
 ## Features
@@ -29,7 +25,7 @@ The application works by taking a long URL, hashing it into a unique fingerprint
 1. **Clone the project**
 ```bash
 git clone https://github.com/Anchalrawat/url-shorter.git
-cd url-shorter
+cd go-url-shortener
 
 ```
 
@@ -45,11 +41,7 @@ The server will start on `http://localhost:8090`.
 
 ---
 
-<<<<<<< HEAD
 ## API Usage
-=======
-## 📡 API Usage
->>>>>>> 025807f3e3791ce7045911f31dc9645d4560a891
 
 ### 1. Shorten a URL
 
@@ -69,7 +61,4 @@ curl -X POST -d "url=https://www.google.com" http://localhost:8090/shorten
 **Endpoint:** `GET /{id}`
 
 Simply paste the shortened URL into your browser, and you will be redirected to the original destination.
-<<<<<<< HEAD
 
-=======
->>>>>>> 025807f3e3791ce7045911f31dc9645d4560a891
